@@ -8,7 +8,7 @@ public class Main {
         long actual = service.calculate(amount, registered);
         int expected = 30;
 
-        System.out.println(actual == expected);
+        System.out.println(actual == expected); // Добавляем сравнение фактического результата с ожидаемым
     }
 }
 
